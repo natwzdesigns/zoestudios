@@ -259,7 +259,7 @@ Important
 
 • 4K normal (3840×2160) → Use 4K normal mapping.
 
-• 4K iPad (2880×2160) → Use 2K iPad mapping.
+• 4K iPad (2880×2160) → Use 4K iPad mapping.
 
 Before Applying New Mapping
 Reset GameLoop key mapping.

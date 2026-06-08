@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login to X (Twitter) on an Emulator — ZOE Studios</title>
+  <meta name="description" content="Simple workaround to sign into X (Twitter) inside your android emulator.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="smooth-scroll">
+  <canvas id="dustCanvas"></canvas>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-text">
+          <span class="brand-name" id="siteName">ZOE</span>
+          <span class="brand-sub" id="siteTagline">Studios</span>
+        </div>
+      </a>
+
+      <nav>
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://t.me/arnislive" class="btn btn-ghost" style="padding: 6px 16px; font-size: .65rem;" target="_blank" id="headerTG">DISPATCH</a>
+        <button class="ham-btn" id="hamBtn">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="index.html">Archives</a>
+    <a href="tools.html">Catalog</a>
+    <a href="faq.html">Journal</a>
+    <a href="https://t.me/arnislive" target="_blank" id="mobileTG">Dispatch</a>
+  </div>
+
+  <main>
+    <article id="staticPostArticle">
+      <section class="hero" style="min-height: 40vh; padding-bottom: 2rem;">
+        <div class="hero-dim"></div>
+        
+        <div class="breadcrumb">
+          <a href="index.html">INDEX</a>
+          <span class="sep">/</span>
+          <a href="index.html">TUTORIAL</a>
+          <span class="sep">/</span>
+          <span>DOSSIER</span>
+        </div>
+        
+        <h1 id="postTitle">
+          Login to X (Twitter)<br><em>on an Emulator</em>
+        </h1>
+        <p class="hero-desc" style="margin-bottom: 0;">
+          <span>2026-06-07</span> &mdash; <span>4 MIN READ</span>
+        </p>
+      </section>
+
+      <hr class="divider">
+
+      <section class="container fade-in" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem 6rem;">
+        <div id="postMediaContainer" style="margin-bottom: 3rem;">
+          <div class="cover-wrap">
+            <img src="assets/twitter_login.jpg" alt="Cover">
+          </div>
+        </div>
+
+        <div id="postContent" class="vintage-content">
+          <p>Having trouble signing into X inside your emulator? Follow this simple workaround and you'll be logged in within minutes.</p>
+
+          <h2>Step 1 &mdash; Sign in on a Normal Browser</h2>
+          <p>Open X (Twitter) on your phone or PC browser and log into your account normally.</p>
+
+          <h2>Step 2 &mdash; Change Your Email</h2>
+          <p>Go to X Account Settings and replace your current email address with another Gmail account.</p>
+
+          <h2>Step 3 &mdash; Sign Into Play Store</h2>
+          <p>On your emulator, log into the Google Play Store using that same Gmail account.</p>
+
+          <h2>Step 4 &mdash; Install X (Twitter)</h2>
+          <h3>GameLoop Users</h3>
+          <p>Install X from:</p>
+          <ul>
+            <li>GameLoop App Market</li>
+            <li>Or the download link provided below</li>
+          </ul>
+          <p><strong>&warning; Do NOT install X from the Play Store on GameLoop.</strong></p>
+
+          <h2>Step 5 &mdash; Continue with Google</h2>
+          <p>Open X and select:</p>
+          <blockquote>
+            <p><strong>Continue with Google</strong></p>
+          </blockquote>
+          <p>Choose the same Gmail account used in the previous steps.</p>
+
+          <h2>Step 6 &mdash; You're In!</h2>
+          <p>X should automatically recognize your account and sign you in successfully.</p>
+          <p>Enjoy &nbsp;😀</p>
+
+          <hr style="border: none; border-top: 1px dashed var(--border); margin: 3rem 0;">
+
+          <h2>Important Note</h2>
+          <blockquote>
+            <p>This method is intended for users experiencing login issues on emulators.</p>
+            <p>To avoid problems:</p>
+            <ul>
+              <li><strong>&check;</strong> Use the same Gmail account everywhere</li>
+              <li><strong>&check;</strong> Use that Gmail in X Account Settings</li>
+              <li><strong>&check;</strong> Use that Gmail in the emulator's Play Store</li>
+              <li><strong>&check;</strong> Use "Continue with Google" during login</li>
+            </ul>
+            <p>Once everything matches, login usually works without any issues.</p>
+          </blockquote>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand" id="footerBrand">ZOE Studios</span>
+      <div class="footer-links">
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+        <a href="https://t.me/arnislive" target="_blank" id="footerTG">Telegram Dispatch</a>
+      </div>
+      <div class="footer-copy">© 2026 ZOE STUDIOS. ALL RIGHTS RESERVED.</div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/dust.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

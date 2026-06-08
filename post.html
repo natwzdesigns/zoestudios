@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Post — ZOE Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="smooth-scroll">
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <div class="loader-text">ZOE</div>
+      <div class="loader-slider">
+        <div class="loader-slider-fill"></div>
+      </div>
+    </div>
+  </div>
+  <canvas id="dustCanvas"></canvas>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-text">
+          <span class="brand-name" id="siteName">ZOE</span>
+          <span class="brand-sub" id="siteTagline">Studios</span>
+        </div>
+      </a>
+
+      <nav>
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="ham-btn" id="hamBtn">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="index.html">Archives</a>
+    <a href="tools.html">Catalog</a>
+    <a href="faq.html">Journal</a>
+  </div>
+
+  <main>
+    <div id="postLoading" class="container fade-in" style="padding: 10rem 0; text-align: center; font-family: 'Courier Prime', monospace; letter-spacing: 2px;">
+      RETRIEVING DOSSIER...
+    </div>
+
+    <article id="postArticle" style="display: none;">
+      <section class="hero" style="min-height: 40vh; padding-bottom: 2rem;">
+        <div class="hero-dim"></div>
+        
+        <div class="breadcrumb">
+          <a href="index.html">INDEX</a>
+          <span class="sep">/</span>
+          <a href="index.html" id="postCategoryBreadcrumb">ARCHIVES</a>
+          <span class="sep">/</span>
+          <span>DOSSIER</span>
+        </div>
+        
+        <h1 id="postTitle">
+          <!-- Title injected via JS -->
+        </h1>
+        <p class="hero-desc" style="margin-bottom: 0;">
+          <span id="postDate"></span> &mdash; <span id="postTime"></span>
+        </p>
+      </section>
+
+      <hr class="divider">
+
+      <section class="container fade-in" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem 6rem;">
+        <div id="postMediaContainer" style="margin-bottom: 3rem;">
+          <!-- Cover image or video injected via JS -->
+        </div>
+
+        <div id="postContent" class="vintage-content">
+          <!-- Markdown HTML injected via JS -->
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand" id="footerBrand">ZOE Studios</span>
+      <div class="footer-links">
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+      </div>
+      <div class="footer-copy">© 2026 ZOE STUDIOS. ALL RIGHTS RESERVED.</div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/dust.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -324,43 +324,45 @@ Initial lag after entering a match is normal while shaders are being built. Once
 **Get Stable up to 240 FPS**
 
 ⚙️ **PROFESSIONAL PC OPTIMIZATION & STREAM SETUP**
-Maximize your frame rate, eliminate input lag, and stream flawlessly. We offer hardware-tailored optimization designed for competitive players and content creators.
+Maximize your FPS, eliminate input lag, and stream smoothly. Hardware-tailored setups for competitive players and creators.
 
 ━━━━━━━━━━━━━━━
 
 ### 🛠️ INDIVIDUAL SERVICES
 
- * **PC Optimization | ₹1500**
-   Comprehensive Windows debloating, custom power plans, registry tuning, and network latency/ping optimization. *(Note: Does not include emulator or OBS setups).*
+ * **PC Optimization | ₹2,000**
+   Includes Windows debloating, custom power plans, registry tweaks, and network latency/ping optimization. (Does not include emulator or OBS setups).
 
- * **Fusion & Game Setup | ₹500**
-   Advanced emulator engine configuration, GameLoop keymapping fixes, and vibrancy color filters for enhanced visibility. *(Note: Does not include Windows or OBS tweaks).*
+ * **Fusion & Game Setup | ₹700**
+   Includes emulator engine configuration, Gameloop keymapping fixes, and vibrancy color filters. (Does not include Windows or OBS tweaks).
 
- * **OBS Stream Setup | ₹300**
-   Custom hardware encoder profiles (NVENC), bitrate tuning, and vertical layout configurations for smooth streaming. *(Note: Does not include Windows or emulator tweaks).*
+ * **OBS Stream Setup | ₹500**
+   Includes custom hardware encoder profiles (NVENC), bitrate tuning, and vertical layout configurations. (Does not include Windows or emulator tweaks).
 
 ━━━━━━━━━━━━━━━
 
 ### 🎁 DISCOUNTED BUNDLES
 
- * **PC + Game Setup Bundle | ₹1700** *(Save ₹300)*
-   Includes Full PC Optimization + Fusion & Game Setup. The ultimate choice for competitive players.
+ * **PC + Game Setup Bundle | ₹2,300** *(Save ₹400)*
+   Includes Full PC Optimization + Fusion & Game Setup. Perfect for competitive players.
 
- * **All-In-One Streamer Bundle | ₹2,000** *(Save ₹300)*
-   Our premium package includes all three services: Full PC Optimization, Game Setup, and OBS Configuration.
+ * **All-In-One Streamer Bundle | ₹2,700** *(Save ₹500)*
+   Includes ALL THREE services: Full PC Optimization, Game Setup, and OBS Configuration.
 
 ━━━━━━━━━━━━━━━
 
 ### 📌 TERMS & POLICY
 
- * 💸 **Payment**: Advance payment is required to secure your appointment slot.
- * 🚫 **Non-Refundable**: All sales are final once optimization begins. Rates are strictly non-negotiable.
- * ⚠️ **Performance Note**: Our tweaks are safely calculated for your specific hardware—we do not use generic scripts. While our optimizations unlock maximum stability and minimize latency, your final gameplay performance and peak FPS are ultimately dependent on your system's hardware specifications. Every configuration is rigorously tested to guarantee zero stability issues.
+ * 💸 **Payment**: Advance payment required to secure your slot.
+
+ * 🚫 **Non-Refundable**: All sales are final once work begins. Non-negotiable rates.
+
+ * ⚠️ **Performance Note**: Tweaks are calculated safely for your exact hardware, not generic scripts. While optimization unlocks maximum stability and lower latency, final gameplay performance and constant FPS ultimately depend on your system specifications. Every configuration is fully tested to ensure zero stability issues.
 
 ━━━━━━━━━━━━━━━
 
-📩 **DM directly to book your slot!**
-👉 **[@arnislive28](https://t.me/arnislive28)** or **[@zoeolds](https://t.me/zoeolds)** on Telegram
+📩 **DM me directly to book your slot!**
+👉 **[@arnislive28](https://t.me/arnislive28)** and **[@drinkyourperiod](https://t.me/drinkyourperiod)** on Telegram
     `
   }
 ];

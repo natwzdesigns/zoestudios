@@ -655,6 +655,21 @@ document.addEventListener('DOMContentLoaded', () => {
   transitionOverlay.id = 'page-transition-overlay';
   document.body.appendChild(transitionOverlay);
 
+  // --- SCROLL PROGRESS BAR ---
+  const scrollProgressBar = document.createElement('div');
+  scrollProgressBar.id = 'scroll-progress';
+  document.body.appendChild(scrollProgressBar);
+
+  window.addEventListener('scroll', () => {
+    const scrollTotal = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    if (scrollTotal > 0) {
+      const scrollPercent = (window.scrollY / scrollTotal) * 100;
+      scrollProgressBar.style.width = scrollPercent + '%';
+    } else {
+      scrollProgressBar.style.width = '0%';
+    }
+  });
+
   document.addEventListener('click', (e) => {
     const link = e.target.closest('a');
     // If it's an internal link and not opening in a new tab

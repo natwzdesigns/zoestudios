@@ -1424,6 +1424,19 @@ footer {
   pointer-events: all;
 }
 
+/* --- SCROLL PROGRESS BAR --- */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: var(--gold);
+  z-index: 9999999;
+  pointer-events: none;
+  transition: width 0.1s ease-out;
+}
+
 /* --- INTERACTIVE TOOLTIP --- */
 #cursor-tooltip {
   position: fixed;

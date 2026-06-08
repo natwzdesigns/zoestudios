@@ -67,7 +67,7 @@ On your emulator, log into the Google Play Store using that same Gmail account.
 #### GameLoop Users
 Install X from:
 - GameLoop App Market
-- Or the download link provided below
+- [Or the download link provided below](https://drive.google.com/file/d/1IlGFVsNOJhkG0szp8ZWhbqtOc2FTI3vc/view?pli=1)
 
 ⚠ Do NOT install X from the Play Store on GameLoop.
 

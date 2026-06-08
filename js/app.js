@@ -77,7 +77,9 @@ function showToast(msg) {
   toast.classList.add('show');
   
   if (window.toastTimeout) clearTimeout(window.toastTimeout);
-  window.toastTimeout = setTimeout(() => toast.classList.remove('show'), 3000);
+  window.toastTimeout = setTimeout(() => {
+    toast.classList.remove('show');
+  }, 1000);
 }
 
 

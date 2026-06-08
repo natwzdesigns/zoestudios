@@ -385,7 +385,7 @@ const TOOLS = [
 
   { title: 'Device Registration APK', icon: '<img src="https://img.icons8.com/?id=r0zyQDa3KzSs&format=png&size=96" class="vintage-icon" alt="icon">', size: '800 KB', category: 'Utilities', desc: 'APK for device registration on uncertified Android devices.', url: 'https://www.mediafire.com/file/f7etcxdyf7mir3h/com.evozi.deviceid.apk/file' },
   { title: 'SnailYT.exe', icon: '<img src="https://img.icons8.com/?id=mErfGEjknd1i&format=png&size=96" class="vintage-icon" alt="icon">', size: '4 MB', category: 'Utilities', desc: 'SnailYT GLP utility tool.', url: 'https://www.mediafire.com/file/wgy3x9n4is67z4l/snailyt.exe/file' },
-  { title: 'Gameloop Guide PDF', icon: '<img src="https://img.icons8.com/?id=GJvXdaU9uHhq&format=png&size=96" class="vintage-icon" alt="icon">', size: '3 MB', category: 'Guides', desc: 'Comprehensive PDF guide for Gameloop setup and configuration.', url: 'assets/bgmi_setup_guide.pdf' }
+  { title: 'Gameloop Guide PDF', icon: '<img src="https://img.icons8.com/?id=GJvXdaU9uHhq&format=png&size=96" class="vintage-icon" alt="icon">', size: '3 MB', category: 'Guides', desc: 'Comprehensive PDF guide for Gameloop setup and configuration.', url: 'assets/BGMI_Setup_Guide.pdf' }
 ];
 
 const FAQ = [
@@ -534,6 +534,6 @@ const FAQ = [
     q: 'Gameloop complete guide PDF',
     a: 'Download the comprehensive Gameloop setup and configuration guide:',
     category: 'downloads',
-    links: [{ text: 'Download Gameloop Guide PDF', url: 'assets/bgmi_setup_guide.pdf' }]
+    links: [{ text: 'Download Gameloop Guide PDF', url: 'assets/BGMI_Setup_Guide.pdf' }]
   }
 ];

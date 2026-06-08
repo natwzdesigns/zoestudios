@@ -1406,13 +1406,22 @@ footer {
   50% { opacity: 1; }
 }
 
-/* --- PAGE TRANSITION --- */
-body {
+/* --- PAGE TRANSITION OVERLAY --- */
+#page-transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg);
+  z-index: 9999999;
+  pointer-events: none;
+  opacity: 0;
   transition: opacity 0.3s ease-out;
 }
-body.page-fade-out {
-  opacity: 0;
-  pointer-events: none;
+#page-transition-overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }
 
 /* --- INTERACTIVE TOOLTIP --- */

@@ -650,12 +650,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // --- PAGE TRANSITIONS ---
+  // Create transition overlay
+  const transitionOverlay = document.createElement('div');
+  transitionOverlay.id = 'page-transition-overlay';
+  document.body.appendChild(transitionOverlay);
+
   document.addEventListener('click', (e) => {
     const link = e.target.closest('a');
     // If it's an internal link and not opening in a new tab
     if (link && !link.hasAttribute('target') && link.href && link.href.startsWith(window.location.origin)) {
       e.preventDefault();
-      document.body.classList.add('page-fade-out');
+      transitionOverlay.classList.add('active');
       setTimeout(() => {
         window.location = link.href;
       }, 300);
@@ -664,6 +669,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Handle Safari/Mobile Back Button (bfcache)
   window.addEventListener('pageshow', (event) => {
-    document.body.classList.remove('page-fade-out');
+    transitionOverlay.classList.remove('active');
   });
 });

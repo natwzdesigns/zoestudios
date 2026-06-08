@@ -661,4 +661,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 300);
     }
   });
+
+  // Handle Safari/Mobile Back Button (bfcache)
+  window.addEventListener('pageshow', (event) => {
+    document.body.classList.remove('page-fade-out');
+  });
 });

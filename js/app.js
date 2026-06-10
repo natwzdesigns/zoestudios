@@ -690,3 +690,11 @@ document.addEventListener('DOMContentLoaded', () => {
     transitionOverlay.classList.remove('active');
   });
 });
+
+// Expose functions globally for inline HTML events
+window.setTag = setTag;
+window.setFaqTag = setFaqTag;
+window.copyToClipboard = copyToClipboard;
+window.onSearch = onSearch;
+window.toggleJournal = toggleJournal;
+window.showToast = showToast;

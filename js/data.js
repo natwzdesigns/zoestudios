@@ -228,6 +228,51 @@ To manually access the Google Play Store:
     icon: '<img src="https://picsum.photos/seed/mouse/800/450?grayscale" alt="thumbnail">'
   },
   {
+    id: 99,
+    title: 'How to Disable Virtualization Based Security (VBS)',
+    slug: 'disable-vbs',
+    url: 'disable-vbs.html',
+    category: 'TUTORIAL',
+    excerpt: 'Complete guide to turning off Windows Virtualization Based Security, Core Isolation, and related optional features for maximum emulator performance.',
+    date: '2026-06-10',
+    readTime: '4 min read',
+    icon: '<img src="https://picsum.photos/seed/security/800/450?grayscale" alt="thumbnail">',
+    content: `
+# Disable Virtualization Based Security (VBS)
+
+Virtualization-Based Security (VBS) and Core Isolation (Memory Integrity) can cause performance issues or conflicts with Android emulators. 
+
+Here is how to completely disable them on Windows 11.
+
+### Step 1 — Disable Core Isolation (Memory Integrity)
+The easiest way is through Windows Settings:
+1. Open the **Start menu** and search for **"Core isolation"**.
+2. Click to open the Core isolation settings page.
+3. Toggle the **Memory integrity** switch to **Off**.
+4. **Restart your computer**.
+
+### Step 2 — Disable Optional Features
+Some Windows features rely on the hypervisor and keep VBS active:
+1. Open the **Start menu** and search for **"Turn Windows features on or off"**.
+2. Open it and uncheck the following (if they are listed):
+   * **Virtual Machine Platform**
+   * **Windows Hypervisor Platform**
+   * **Microsoft Defender Application Guard**
+3. Click **OK** and restart your PC.
+
+### Step 3 — Force Disable via Script (Recommended)
+If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:
+
+1. [Download Disable Hyper-V & VBS Tool](https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file)
+2. Right-click the downloaded \`.exe\` file.
+3. Select **"Run as Administrator"**.
+4. Follow any on-screen prompts.
+5. **Restart your PC** for the final time.
+
+*(Note: Disabling virtualization features may prevent programs like VMware, Docker, or WSL2 from working).*
+    `
+  },
+  {
     id: 5,
     title: 'Gameloop Keymap setup full guide',
     slug: 'gl-keymap',

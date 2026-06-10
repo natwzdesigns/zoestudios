@@ -605,32 +605,43 @@ function startRandomNotifications() {
   }, 15000); // 15s before first one
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  initSite();
-  initDust();
-  if (document.getElementById('bentoGrid')) {
-    applyFilters();
-    renderRelease();
-  }
-  if (document.getElementById('journalList')) {
-    renderFAQ();
-  }
-  if (document.getElementById('catalogContainer')) {
-    renderTools();
-  }
-  if (document.getElementById('postArticle')) {
-    renderPostPage();
-  }
-  initAnimations();
-  startRandomNotifications();
-
-  // Dismiss loader safely
-  setTimeout(() => {
-    const loader = document.getElementById('loader');
-    if (loader) {
-      loader.classList.add('loaded');
+function initApp() {
+  try {
+    initSite();
+    initDust();
+    if (document.getElementById('bentoGrid')) {
+      applyFilters();
+      renderRelease();
     }
-  }, 1300);
+    if (document.getElementById('journalList')) {
+      renderFAQ();
+    }
+    if (document.getElementById('catalogContainer')) {
+      renderTools();
+    }
+    if (document.getElementById('postArticle')) {
+      renderPostPage();
+    }
+    initAnimations();
+    startRandomNotifications();
+  } catch (err) {
+    console.error("Initialization error:", err);
+  } finally {
+    // Dismiss loader safely
+    setTimeout(() => {
+      const loader = document.getElementById('loader');
+      if (loader) {
+        loader.classList.add('loaded');
+      }
+    }, 1300);
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
 
   // --- TOOLTIP SETUP ---
   const tooltip = document.createElement('div');

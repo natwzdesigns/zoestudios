@@ -1,4 +1,4 @@
-window.SITE = {
+const SITE = {
   name: 'ZOE',
   tagline: 'Studios',
   logo: 'assets/logo.png', // I will update logo style later
@@ -7,7 +7,7 @@ window.SITE = {
   youtube: '#'
 };
 
-window.RELEASE = {
+const RELEASE = {
   version: 'Fusion 1.8.4',
   badge: 'LATEST EDITION',
   changelog: [
@@ -37,7 +37,7 @@ window.RELEASE = {
   downloadUrl: 'https://www.mediafire.com/file/shtp2fkw6zikhsd/Fusion.exe/file'
 };
 
-window.POSTS = [
+const POSTS = [
   {
     id: 10,
     title: 'Twitter (X) login for emulators',
@@ -412,7 +412,7 @@ Maximize your FPS, eliminate input lag, and stream smoothly. Hardware-tailored s
   }
 ];
 
-window.TOOLS = [
+const TOOLS = [
   { title: 'Fusion EXE', icon: '<img src="https://img.icons8.com/?id=CXkWHHhC2F7K&format=png&size=96" class="vintage-icon" alt="icon">', size: '15 MB', category: 'Essentials', desc: 'Main Fusion bypass executable.', url: 'https://www.mediafire.com/file/shtp2fkw6zikhsd/Fusion.exe/file' },
   { title: 'Visual C++ Redistributable', icon: '<img src="https://img.icons8.com/?id=mErfGEjknd1i&format=png&size=96" class="vintage-icon" alt="icon">', size: '14 MB', category: 'Essentials', desc: 'Required runtime for Fusion. Fixes "Failed to perform critical functions" error.', url: 'https://aka.ms/vs/16/release/vc_redist.x64.exe' },
   
@@ -435,7 +435,7 @@ window.TOOLS = [
   { title: 'Gameloop Guide PDF', icon: '<img src="https://img.icons8.com/?id=GJvXdaU9uHhq&format=png&size=96" class="vintage-icon" alt="icon">', size: '3 MB', category: 'Guides', desc: 'Comprehensive PDF guide for Gameloop setup and configuration.', url: 'assets/BGMI_Setup_Guide.pdf' }
 ];
 
-window.FAQ = [
+const FAQ = [
   {
     id: 1,
     q: 'Failed to perform critical functions error',

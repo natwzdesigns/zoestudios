@@ -108,11 +108,11 @@
           <p>If the above settings don't stick, you can disable VBS directly through the Windows Registry:</p>
           <ol>
             <li>Press <strong>Win + R</strong>, type <code>regedit</code>, and press Enter to open the Registry Editor.</li>
-            <li>Navigate to the following path: <br><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard</code></li>
-            <li>Look for a value named <strong>EnableVirtualizationBasedSecurity</strong> in the right pane.</li>
+            <li>Navigate to the following path: <br><code style="word-break: break-all; overflow-wrap: anywhere;">HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard</code></li>
+            <li>Look for a value named <strong style="word-break: break-all; overflow-wrap: anywhere;">EnableVirtualizationBasedSecurity</strong> in the right pane.</li>
             <li>Double-click it and change the <strong>Value data</strong> to <strong>0</strong>.</li>
-            <li>If the value doesn't exist, right-click an empty space, select <strong>New > DWORD (32-bit) Value</strong>, name it <code>EnableVirtualizationBasedSecurity</code>, and set its value to <strong>0</strong>.</li>
-            <li>Next, navigate to: <br><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa</code></li>
+            <li>If the value doesn't exist, right-click an empty space, select <strong>New > DWORD (32-bit) Value</strong>, name it <code style="word-break: break-all; overflow-wrap: anywhere;">EnableVirtualizationBasedSecurity</code>, and set its value to <strong>0</strong>.</li>
+            <li>Next, navigate to: <br><code style="word-break: break-all; overflow-wrap: anywhere;">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa</code></li>
             <li>Find <strong>LsaCfgFlags</strong> and change its value to <strong>0</strong>.</li>
             <img src="assets/regedit.png" alt="Registry Editor" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li>Close the Registry Editor and restart your PC.</li>

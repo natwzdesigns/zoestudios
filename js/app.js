@@ -697,4 +697,3 @@ if (document.readyState === 'loading') {
   window.addEventListener('pageshow', (event) => {
     transitionOverlay.classList.remove('active');
   });
-});

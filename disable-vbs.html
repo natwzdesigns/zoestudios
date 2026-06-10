@@ -58,10 +58,10 @@
         </div>
         
         <h1 id="postTitle">
-          Login to X (Twitter)<br><em>on an Emulator</em>
+          Disable Virtualization Based Security (VBS)<br><em>on Windows 11</em>
         </h1>
         <p class="hero-desc" style="margin-bottom: 0;">
-          <span>2026-06-07</span> &mdash; <span>4 MIN READ</span>
+          <span>2026-06-10</span> &mdash; <span>4 MIN READ</span>
         </p>
       </section>
 
@@ -70,55 +70,51 @@
       <section class="container fade-in" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem 6rem;">
         <div id="postMediaContainer" style="margin-bottom: 3rem;">
           <div class="cover-wrap">
-            <img src="assets/twitter_login.jpg" alt="Cover">
+            <img src="https://picsum.photos/seed/security/800/450?grayscale" alt="Cover">
           </div>
         </div>
 
         <div id="postContent" class="vintage-content">
-          <p>Having trouble signing into X inside your emulator? Follow this simple workaround and you'll be logged in within minutes.</p>
+          <p>Virtualization-Based Security (VBS) and Core Isolation (Memory Integrity) can cause performance issues or conflicts with Android emulators. Here is how to completely disable them on Windows 11.</p>
 
-          <h2>Step 1 &mdash; Sign in on a Normal Browser</h2>
-          <p>Open X (Twitter) on your phone or PC browser and log into your account normally.</p>
+          <h2>Step 1 &mdash; Disable Core Isolation (Memory Integrity)</h2>
+          <p>The easiest way is through Windows Settings:</p>
+          <ol>
+            <li>Open the <strong>Start menu</strong> and search for <strong>"Core isolation"</strong>.</li>
+            <li>Click to open the Core isolation settings page.</li>
+            <li>Toggle the <strong>Memory integrity</strong> switch to <strong>Off</strong>.</li>
+            <li><strong>Restart your computer</strong>.</li>
+          </ol>
 
-          <h2>Step 2 &mdash; Change Your Email</h2>
-          <p>Go to X Account Settings and replace your current email address with another Gmail account.</p>
+          <h2>Step 2 &mdash; Disable Optional Features</h2>
+          <p>Some Windows features rely on the hypervisor and keep VBS active:</p>
+          <ol>
+            <li>Open the <strong>Start menu</strong> and search for <strong>"Turn Windows features on or off"</strong>.</li>
+            <li>Open it and uncheck the following (if they are listed):
+              <ul>
+                <li><strong>Virtual Machine Platform</strong></li>
+                <li><strong>Windows Hypervisor Platform</strong></li>
+                <li><strong>Microsoft Defender Application Guard</strong></li>
+              </ul>
+            </li>
+            <li>Click <strong>OK</strong> and restart your PC.</li>
+          </ol>
 
-          <h2>Step 3 &mdash; Sign Into Play Store</h2>
-          <p>On your emulator, log into the Google Play Store using that same Gmail account.</p>
-
-          <h2>Step 4 &mdash; Install X (Twitter)</h2>
-          <h3>GameLoop Users</h3>
-          <p>Install X from:</p>
-          <ul>
-            <li>GameLoop App Market</li>
-            <li>Or the download link provided below</li>
-          </ul>
-          <p><strong>&warning; Do NOT install X from the Play Store on GameLoop.</strong></p>
-
-          <h2>Step 5 &mdash; Continue with Google</h2>
-          <p>Open X and select:</p>
-          <blockquote>
-            <p><strong>Continue with Google</strong></p>
-          </blockquote>
-          <p>Choose the same Gmail account used in the previous steps.</p>
-
-          <h2>Step 6 &mdash; You're In!</h2>
-          <p>X should automatically recognize your account and sign you in successfully.</p>
-          <p>Enjoy &nbsp;😀</p>
+          <h2>Step 3 &mdash; Force Disable via Script (Recommended)</h2>
+          <p>If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:</p>
+          <ol>
+            <li><a href="https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file" target="_blank">Download Disable Hyper-V &amp; VBS Tool</a></li>
+            <li>Right-click the downloaded <code>.exe</code> file.</li>
+            <li>Select <strong>"Run as Administrator"</strong>.</li>
+            <li>Follow any on-screen prompts.</li>
+            <li><strong>Restart your PC</strong> for the final time.</li>
+          </ol>
 
           <hr style="border: none; border-top: 1px dashed var(--border); margin: 3rem 0;">
 
           <h2>Important Note</h2>
           <blockquote>
-            <p>This method is intended for users experiencing login issues on emulators.</p>
-            <p>To avoid problems:</p>
-            <ul>
-              <li><strong>&check;</strong> Use the same Gmail account everywhere</li>
-              <li><strong>&check;</strong> Use that Gmail in X Account Settings</li>
-              <li><strong>&check;</strong> Use that Gmail in the emulator's Play Store</li>
-              <li><strong>&check;</strong> Use "Continue with Google" during login</li>
-            </ul>
-            <p>Once everything matches, login usually works without any issues.</p>
+            <p>Disabling virtualization features may prevent programs like VMware, Docker, or WSL2 from working.</p>
           </blockquote>
         </div>
       </section>

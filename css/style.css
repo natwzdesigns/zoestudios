@@ -1464,3 +1464,10 @@ footer {
   opacity: 1;
   visibility: visible;
 }
+
+
+/* Fix inline code overflow on mobile */
+code {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}

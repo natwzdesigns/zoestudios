@@ -81,8 +81,10 @@
           <p>The easiest way is through Windows Settings:</p>
           <ol>
             <li>Open the <strong>Start menu</strong> and search for <strong>"Core isolation"</strong>.</li>
+            <img src="assets/core_isolation_1.png" alt="Search for Core Isolation" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li>Click to open the Core isolation settings page.</li>
             <li>Toggle the <strong>Memory integrity</strong> switch to <strong>Off</strong>.</li>
+            <img src="assets/core_isolation_2.png" alt="Toggle Memory Integrity Off" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li><strong>Restart your computer</strong>.</li>
           </ol>
 
@@ -90,6 +92,7 @@
           <p>Some Windows features rely on the hypervisor and keep VBS active:</p>
           <ol>
             <li>Open the <strong>Start menu</strong> and search for <strong>"Turn Windows features on or off"</strong>.</li>
+            <img src="assets/turn_windows_1.png" alt="Search for Turn Windows features on or off" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li>Open it and uncheck the following (if they are listed):
               <ul>
                 <li><strong>Virtual Machine Platform</strong></li>
@@ -97,6 +100,7 @@
                 <li><strong>Microsoft Defender Application Guard</strong></li>
               </ul>
             </li>
+            <img src="assets/turn_windows_2.png" alt="Uncheck features" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li>Click <strong>OK</strong> and restart your PC.</li>
           </ol>
 
@@ -110,6 +114,7 @@
             <li>If the value doesn't exist, right-click an empty space, select <strong>New > DWORD (32-bit) Value</strong>, name it <code>EnableVirtualizationBasedSecurity</code>, and set its value to <strong>0</strong>.</li>
             <li>Next, navigate to: <br><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa</code></li>
             <li>Find <strong>LsaCfgFlags</strong> and change its value to <strong>0</strong>.</li>
+            <img src="assets/regedit.png" alt="Registry Editor" style="max-width: 100%; border-radius: 8px; margin: 1rem 0; display: block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <li>Close the Registry Editor and restart your PC.</li>
           </ol>
 

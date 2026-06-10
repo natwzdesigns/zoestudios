@@ -101,6 +101,19 @@ function copyToClipboard(e, text) {
   });
 }
 
+window.copyCodeText = function(elementId, btn) {
+  const el = document.getElementById(elementId);
+  if (!el) return;
+  playSound('click');
+  navigator.clipboard.writeText(el.innerText || el.textContent).then(() => {
+    const originalHTML = btn.innerHTML;
+    btn.innerHTML = `<img src="https://img.icons8.com/?id=63262&format=png&size=96" alt="Check" style="width: 12px; filter: invert(0.6);"> Copied!`;
+    setTimeout(() => {
+      btn.innerHTML = originalHTML;
+    }, 2000);
+  });
+};
+
 // hamburger
 const ham = document.getElementById('hamBtn');
 const mobileNav = document.getElementById('mobMenu');
@@ -307,13 +320,23 @@ function renderTools() {
     { id: 'Utilities', title: 'Utilities & Guides' }
   ];
 
+  const searchInput = document.getElementById('catalogSearch');
+  const query = searchInput ? searchInput.value.toLowerCase() : '';
+
   let html = '';
   
   categories.forEach(cat => {
-    const catTools = TOOLS.filter(t => {
+    let catTools = TOOLS.filter(t => {
       if (cat.id === 'Utilities') return t.category === 'Utilities' || t.category === 'Guides';
       return t.category === cat.id;
     });
+
+    if (query) {
+      catTools = catTools.filter(t => 
+        t.title.toLowerCase().includes(query) || 
+        t.desc.toLowerCase().includes(query)
+      );
+    }
 
     if (catTools.length === 0) return;
 
@@ -618,6 +641,13 @@ function initApp() {
     }
     if (document.getElementById('catalogContainer')) {
       renderTools();
+      const searchInput = document.getElementById('catalogSearch');
+      if (searchInput && !searchInput.dataset.listening) {
+        searchInput.dataset.listening = "true";
+        searchInput.addEventListener('input', () => {
+          renderTools();
+        });
+      }
     }
     if (document.getElementById('postArticle')) {
       renderPostPage();

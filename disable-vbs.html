@@ -128,6 +128,20 @@
             <li><strong>Restart your PC</strong> for the final time.</li>
           </ol>
 
+          <h2>Step 5 &mdash; Disable via Command Line (Advanced)</h2>
+          <p>For power users, you can bypass the registry and GUI entirely using an elevated command prompt:</p>
+          <ol>
+            <li>Open the <strong>Start menu</strong>, type <code>cmd</code>, and click <strong>Run as administrator</strong>.</li>
+            <li>Paste the following command and press Enter:</li>
+          </ol>
+          <div class="code-block-wrapper" style="position:relative; margin: 1.5rem 0;">
+            <pre style="background: var(--bg2); padding: 1.5rem; border-radius: 8px; overflow-x: auto; border: 1px solid var(--border);"><code id="bcdeditCmd">bcdedit /set hypervisorlaunchtype off</code></pre>
+            <button class="copy-code-btn" onclick="copyCodeText('bcdeditCmd', this)" style="position: absolute; right: 10px; top: 10px; background: var(--surface); border: 1px solid var(--border); color: var(--text2); padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 0.8rem; display: flex; align-items: center; gap: 5px; transition: all 0.2s;">
+              <img src="https://img.icons8.com/?id=86216&format=png&size=96" alt="Copy" style="width: 12px; filter: invert(0.6);"> Copy
+            </button>
+          </div>
+          <p>To re-enable it in the future, use <code>bcdedit /set hypervisorlaunchtype auto</code> instead.</p>
+
           <hr style="border: none; border-top: 1px dashed var(--border); margin: 3rem 0;">
 
           <h2>Important Note</h2>

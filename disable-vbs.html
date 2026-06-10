@@ -100,7 +100,20 @@
             <li>Click <strong>OK</strong> and restart your PC.</li>
           </ol>
 
-          <h2>Step 3 &mdash; Force Disable via Script (Recommended)</h2>
+          <h2>Step 3 &mdash; Disable VBS via Registry Editor (Manual)</h2>
+          <p>If the above settings don't stick, you can disable VBS directly through the Windows Registry:</p>
+          <ol>
+            <li>Press <strong>Win + R</strong>, type <code>regedit</code>, and press Enter to open the Registry Editor.</li>
+            <li>Navigate to the following path: <br><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard</code></li>
+            <li>Look for a value named <strong>EnableVirtualizationBasedSecurity</strong> in the right pane.</li>
+            <li>Double-click it and change the <strong>Value data</strong> to <strong>0</strong>.</li>
+            <li>If the value doesn't exist, right-click an empty space, select <strong>New > DWORD (32-bit) Value</strong>, name it <code>EnableVirtualizationBasedSecurity</code>, and set its value to <strong>0</strong>.</li>
+            <li>Next, navigate to: <br><code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa</code></li>
+            <li>Find <strong>LsaCfgFlags</strong> and change its value to <strong>0</strong>.</li>
+            <li>Close the Registry Editor and restart your PC.</li>
+          </ol>
+
+          <h2>Step 4 &mdash; Force Disable via Script (Recommended)</h2>
           <p>If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:</p>
           <ol>
             <li><a href="https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file" target="_blank">Download Disable Hyper-V &amp; VBS Tool</a></li>

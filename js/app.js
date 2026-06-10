@@ -694,7 +694,13 @@ if (document.readyState === 'loading') {
   // Create transition overlay
   const transitionOverlay = document.createElement('div');
   transitionOverlay.id = 'page-transition-overlay';
+  transitionOverlay.className = 'active'; // Start black on new page load!
   document.body.appendChild(transitionOverlay);
+
+  // Fade out the overlay to reveal the new page
+  setTimeout(() => {
+    transitionOverlay.classList.remove('active');
+  }, 50);
 
   // --- SCROLL PROGRESS BAR ---
   const scrollProgressBar = document.createElement('div');

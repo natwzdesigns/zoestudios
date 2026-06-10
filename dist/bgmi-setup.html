@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BGMI 4.4 GameLoop Setup Guide — ZOE Studios</title>
+  <meta name="description" content="Comprehensive installation, configuration, and launch protocol for BGMI on GameLoop via Fusion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/app-DFdC5qWF.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-bfDiGXfr.css">
+</head>
+<body class="smooth-scroll">
+  <canvas id="dustCanvas"></canvas>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-text">
+          <span class="brand-name" id="siteName">ZOE</span>
+          <span class="brand-sub" id="siteTagline">Studios</span>
+        </div>
+      </a>
+
+      <nav>
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://t.me/arnislive" class="btn btn-ghost" style="padding: 6px 16px; font-size: .65rem;" target="_blank" id="headerTG">DISPATCH</a>
+        <button class="ham-btn" id="hamBtn">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="index.html">Archives</a>
+    <a href="tools.html">Catalog</a>
+    <a href="faq.html">Journal</a>
+    <a href="https://t.me/arnislive" target="_blank" id="mobileTG">Dispatch</a>
+  </div>
+
+  <main>
+    <article id="staticPostArticle">
+      <section class="hero" style="min-height: 40vh; padding-bottom: 2rem;">
+        <div class="hero-dim"></div>
+        
+        <div class="breadcrumb">
+          <a href="index.html">INDEX</a>
+          <span class="sep">/</span>
+          <a href="index.html">BGMI</a>
+          <span class="sep">/</span>
+          <span>DOSSIER</span>
+        </div>
+        
+        <h1 id="postTitle">
+          GameLoop &amp; BGMI<br><em>Setup Guide</em>
+        </h1>
+        <p class="hero-desc" style="margin-bottom: 0;">
+          <span>2026-05-28</span> &mdash; <span>8 MIN READ</span>
+        </p>
+      </section>
+
+      <hr class="divider">
+
+      <section class="container fade-in" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem 6rem;">
+        <div id="postMediaContainer" style="margin-bottom: 3rem;">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div id="postContent" class="vintage-content">
+          <p>Comprehensive installation, configuration, and launch protocol for BGMI on GameLoop via Fusion.</p>
+
+          <h2 style="border-left: 8px solid var(--gold);">Phase 1: GameLoop &amp; Engine Initialization</h2>
+          
+          <h3>1️⃣ Download &amp; Install GameLoop</h3>
+          <ul>
+            <li>Download and install Gameloop.</li>
+            <li>For VIP’s use <a href="https://t.me/arnislivechats/2078" target="_blank">Gameloop 32 bit</a></li>
+            <li>For free users use <a href="https://t.me/arnislivechats/2079" target="_blank">Gameloop 64 bit</a></li>
+          </ul>
+          <blockquote>
+            <p><strong>Note:</strong> While 32-bit, 64-bit, or Chinese versions generally work, downloading the 64-bit version is recommended if you are using Free Fusion.</p>
+          </blockquote>
+
+          <h3>2️⃣ Install the Required Engine via X</h3>
+          <ul>
+            <li>Open GameLoop and navigate to the App Market.</li>
+            <li>Search for and download X (formerly Twitter).</li>
+          </ul>
+          <blockquote>
+            <p><strong>⚠️ Mandatory Step:</strong> This is not optional. Installing X forces GameLoop to download and install the underlying engine required to run BGMI.</p>
+          </blockquote>
+
+          <h3>3️⃣ Close GameLoop Completely</h3>
+          <ul>
+            <li>Once X is fully installed and opens on your screen, close X and exit GameLoop entirely.</li>
+            <li>Make sure it is not minimized in your system tray.</li>
+          </ul>
+
+          <h2 style="border-left: 8px solid var(--gold);">Phase 2: Fusion Launch &amp; BGMI Installation</h2>
+
+          <h3>4️⃣ Launch GameLoop via Fusion</h3>
+          <ul>
+            <li>Open the Fusion application.</li>
+            <li>Click "Launch" to start GameLoop from within Fusion.</li>
+          </ul>
+          <blockquote>
+            <p><strong>Note:</strong> Do not worry about BGMI not being installed yet. This is normal at this stage.</p>
+          </blockquote>
+
+          <h3>5️⃣ Run the BGMI Installer</h3>
+          <ul>
+            <li>Ensure GameLoop is running via Fusion.</li>
+            <li>Locate the BGMI v4.4 Installer (available from Tools &rarr; Installations inside Fusion).</li>
+            <li>Extract the installer files to a known location.</li>
+            <li>Run the <code>install.bat</code> file.</li>
+          </ul>
+          <blockquote>
+            <p><strong>⚠️ Crucial:</strong> Do NOT close GameLoop while the .bat file is running.</p>
+          </blockquote>
+
+          <h2 style="border-left: 8px solid var(--gold);">Phase 3: Resource Download &amp; Final Launch</h2>
+
+          <h3>6️⃣ Download In-Game Resources</h3>
+          <ul>
+            <li>Open BGMI normally within GameLoop.</li>
+            <li>Download all required in-game resources.</li>
+          </ul>
+
+          <h3>7️⃣ Restart Sequence</h3>
+          <p>Once the download completes, BGMI will display:</p>
+          <blockquote>
+            <p><em>"The update has been finished, please restart the game."</em></p>
+          </blockquote>
+          <ul>
+            <li>Click OK.</li>
+            <li>If BGMI attempts to start automatically again, exit the game.</li>
+            <li>Close GameLoop completely.</li>
+          </ul>
+
+          <h3>8️⃣ Final Launch</h3>
+          <ul>
+            <li>Open Fusion one last time.</li>
+            <li>Click "Launch".</li>
+            <li>Allow Fusion to start BGMI by itself.</li>
+          </ul>
+          <p><strong>&check; Setup Complete!</strong></p>
+
+          <hr style="border: none; border-top: 1px dashed var(--border); margin: 3rem 0;">
+
+          <h2 style="border-left: 8px solid var(--gold);">Additional Configurations</h2>
+
+          <h3>🎮 Keymapping Setup</h3>
+          <p>Keymapping Video Guide: <a href="https://t.me/arnislive07/40" target="_blank">CLICK HERE</a></p>
+          <ul>
+            <li>Ensure GameLoop is already fully installed.</li>
+            <li>Open Fusion and navigate to Tools.</li>
+            <li>Go to the GameLoop section.</li>
+            <li>Download <code>snailyt.exe</code>.</li>
+            <li>Open the executable.</li>
+            <li>Go to Toolbox Section, and kill all Gameloop Processes.</li>
+            <li>Set your keymap according to your display resolution.</li>
+          </ul>
+
+          <h3>🛒 Play Store Access &amp; Troubleshooting</h3>
+          <p>To manually access the Google Play Store:</p>
+          <ul>
+            <li>On the GameLoop home screen, press <strong>F9</strong> (or <strong>Fn + F9</strong> on some keyboards) to reveal hidden system apps.</li>
+            <li>Open the Browser.</li>
+            <li>Search for "Playstore".</li>
+            <li>Click the official Play Store link.</li>
+            <li>Choose to open it with the Play Store app.</li>
+            <li>Sign in with your Google account.</li>
+          </ul>
+
+          <h3>🌐 Network Issues?</h3>
+          <blockquote>
+            <p>If you experience connection drops or network errors while doing this, try resetting your Windows Firewall.</p>
+          </blockquote>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand" id="footerBrand">ZOE Studios</span>
+      <div class="footer-links">
+        <a href="index.html">Archives</a>
+        <a href="tools.html">Catalog</a>
+        <a href="faq.html">Journal</a>
+        <a href="https://t.me/arnislive" target="_blank" id="footerTG">Telegram Dispatch</a>
+      </div>
+      <div class="footer-copy">© 2026 ZOE STUDIOS. ALL RIGHTS RESERVED.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

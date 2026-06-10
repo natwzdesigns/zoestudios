@@ -236,7 +236,8 @@ To manually access the Google Play Store:
     excerpt: 'Complete guide to turning off Windows Virtualization Based Security, Core Isolation, and related optional features for maximum emulator performance.',
     date: '2026-06-10',
     readTime: '4 min read',
-    icon: '<img src="https://picsum.photos/seed/security/800/450?grayscale" alt="thumbnail">',
+    icon: '<img src="assets/disable_vbs.jpg" alt="thumbnail">',
+    cover_image: 'assets/disable_vbs.jpg',
     content: `
 # Disable Virtualization Based Security (VBS)
 

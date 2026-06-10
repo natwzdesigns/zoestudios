@@ -1,4 +1,4 @@
-const SITE = {
+window.SITE = {
   name: 'ZOE',
   tagline: 'Studios',
   logo: 'assets/logo.png', // I will update logo style later
@@ -7,7 +7,7 @@ const SITE = {
   youtube: '#'
 };
 
-const RELEASE = {
+window.RELEASE = {
   version: 'Fusion 1.8.4',
   badge: 'LATEST EDITION',
   changelog: [

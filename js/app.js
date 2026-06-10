@@ -1,3 +1,6 @@
+import './data.js';
+import './dust.js';
+
 let activeTag = 'ALL';
 
 function initSite() {

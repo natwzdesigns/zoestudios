@@ -369,46 +369,68 @@ Initial lag after entering a match is normal while shaders are being built. Once
 # FPS Optimization
 **Get Stable up to 240 FPS**
 
-⚙️ **PROFESSIONAL PC OPTIMIZATION & STREAM SETUP**
-Maximize your FPS, eliminate input lag, and stream smoothly. Hardware-tailored setups for competitive players and creators.
+⚙️ **PROFESSIONAL OPTIMIZATION & STREAM SETUP**
+Performance-focused configurations for competitive players, streamers, and emulator users.
 
 ━━━━━━━━━━━━━━━
 
 ### 🛠️ INDIVIDUAL SERVICES
 
- * **PC Optimization | ₹2,000**
-   Includes Windows debloating, custom power plans, registry tweaks, and network latency/ping optimization. (Does not include emulator or OBS setups).
+**PC OPTIMIZATION &mdash; ₹1499**
+*"Complete Windows optimization tailored specifically for your hardware."*
+* **Windows cleanup & debloating**
+* **Custom power configuration**
+* **Network & latency optimization**
+* **Registry tuning**
+* **Background process optimization**
+* ⏱️ *90–120 Minutes*
 
- * **Fusion & Game Setup | ₹700**
-   Includes emulator engine configuration, Gameloop keymapping fixes, and vibrancy color filters. (Does not include Windows or OBS tweaks).
+**FUSION & GAME SETUP &mdash; ₹599**
+*"Competitive-ready emulator configuration with proper engine, keymapping, and performance tuning."*
+* **Emulator engine configuration**
+* **Gameloop keymapping fixes**
+* **Vibrancy color configuration**
+* ⏱️ *15–20 Minutes*
 
- * **OBS Stream Setup | ₹500**
-   Includes custom hardware encoder profiles (NVENC), bitrate tuning, and vertical layout configurations. (Does not include Windows or emulator tweaks).
-
-━━━━━━━━━━━━━━━
-
-### 🎁 DISCOUNTED BUNDLES
-
- * **PC + Game Setup Bundle | ₹2,300** *(Save ₹400)*
-   Includes Full PC Optimization + Fusion & Game Setup. Perfect for competitive players.
-
- * **All-In-One Streamer Bundle | ₹2,700** *(Save ₹500)*
-   Includes ALL THREE services: Full PC Optimization, Game Setup, and OBS Configuration.
-
-━━━━━━━━━━━━━━━
-
-### 📌 TERMS & POLICY
-
- * 💸 **Payment**: Advance payment required to secure your slot.
-
- * 🚫 **Non-Refundable**: All sales are final once work begins. Non-negotiable rates.
-
- * ⚠️ **Performance Note**: Tweaks are calculated safely for your exact hardware, not generic scripts. While optimization unlocks maximum stability and lower latency, final gameplay performance and constant FPS ultimately depend on your system specifications. Every configuration is fully tested to ensure zero stability issues.
+**OBS STREAM SETUP &mdash; ₹299**
+*"Clean and efficient stream configuration optimized for your hardware."*
+* **Encoder configuration**
+* **Bitrate optimization**
+* **Recording profile setup**
+* **Vertical layout setup**
+* ⏱️ *~10 Minutes*
 
 ━━━━━━━━━━━━━━━
 
-📩 **DM me directly to book your slot!**
-👉 **[@arnislive28](https://t.me/arnislive28)** and **[@drinkyourperiod](https://t.me/drinkyourperiod)** on Telegram
+### 🎁 BUNDLES
+
+**PC + GAME BUNDLE &mdash; ₹1799**
+* **PC Optimization**
+* **Fusion & Game Setup**
+* ⏱️ *105–140 Minutes*
+
+**ALL-IN-ONE STREAMER BUNDLE &mdash; ₹1999**
+* **PC Optimization**
+* **Fusion & Game Setup**
+* **OBS Stream Setup**
+* ⏱️ *115–150 Minutes*
+
+━━━━━━━━━━━━━━━
+
+### 📌 TERMS AND CONDITIONS
+
+* **Advance payment required.**
+* **Non-refundable** once work begins.
+* **No generic scripts** or one-click optimizers.
+* **Every setup is performed manually.**
+* **Final FPS, latency and performance** depend on your hardware specifications.
+
+> **Note:** Every optimization plan (except stand-alone Fusion and OBS setup) includes **FREE** access to a Fusion VIP Season Key at no additional cost.
+
+━━━━━━━━━━━━━━━
+
+📩 **DM directly to book your slot!**
+👉 **[@ARNISLIVE](https://t.me/arnislive28)** and **[@drinkyourperiod](https://t.me/drinkyourperiod)** on Telegram
     `
   }
 ];

@@ -139,223 +139,6 @@ To manually access the Google Play Store:
     `
   },
   {
-    id: 10,
-    title: 'Twitter (X) login for emulators',
-    slug: 'twitter-login',
-    url: 'twitter-login.html',
-    category: 'TUTORIAL',
-    excerpt: 'Having trouble signing into X inside your emulator? Follow this simple workaround and you\'ll be logged in within minutes.',
-    date: '2026-06-07',
-    readTime: '4 min read',
-    icon: '<img src="assets/twitter_login.jpg" alt="thumbnail">',
-    cover_image: 'assets/twitter_login.jpg',
-    content: `
-# Login to X (Twitter) on an Emulator
-
-Having trouble signing into X inside your emulator? Follow this simple workaround and you'll be logged in within minutes.
-
-### Step 1 — Sign in on a Normal Browser
-Open X (Twitter) on your phone or PC browser and log into your account normally.
-
-### Step 2 — Change Your Email
-Go to X Account Settings and replace your current email address with another Gmail account.
-
-### Step 3 — Sign Into Play Store
-On your emulator, log into the Google Play Store using that same Gmail account.
-
-### Step 4 — Install X (Twitter)
-#### GameLoop Users
-Install X from:
-- GameLoop App Market
-- [Or the download link provided below](https://drive.google.com/file/d/1IlGFVsNOJhkG0szp8ZWhbqtOc2FTI3vc/view?pli=1)
-
-⚠ Do NOT install X from the Play Store on GameLoop.
-
-### Step 5 — Continue with Google
-Open X and select:
-> **Continue with Google**
-
-Choose the same Gmail account used in the previous steps.
-
-### Step 6 — You're In!
-X should automatically recognize your account and sign you in successfully.
-
-Enjoy 😀
-
----
-
-### Important Note
-This method is intended for users experiencing login issues on emulators.
-
-To avoid problems:
-- ✓ Use the same Gmail account everywhere
-- ✓ Use that Gmail in X Account Settings
-- ✓ Use that Gmail in the emulator's Play Store
-- ✓ Use "Continue with Google" during login
-
-Once everything matches, login usually works without any issues.
-    `
-  },
-  {
-    id: 2,
-    title: 'MuMu Player 12 — Complete BGMI Setup (Coming Soon)',
-    slug: 'mumu-bgmi-setup',
-    category: 'BGMI',
-    excerpt: 'How to install and configure BGMI on MuMu Player 12 with Fusion bypass. Includes 64-bit and 32-bit instructions.',
-    date: '2026-05-25',
-    readTime: '6 min read',
-    size: '1.8 GB',
-    icon: '<img src="https://picsum.photos/seed/emulator/800/450?grayscale" alt="thumbnail">'
-  },
-  {
-    id: 3,
-    title: 'Network Bridge Error — Fix Guide (Coming Soon)',
-    slug: 'network-bridge-fix',
-    category: 'TUTORIAL',
-    excerpt: 'Step-by-step fix for the Network Bridge Failed error that occurs when starting the bypass on Gameloop or other emulators.',
-    date: '2026-05-20',
-    readTime: '3 min read',
-    icon: '<img src="https://picsum.photos/seed/network/800/450?grayscale" alt="thumbnail">'
-  },
-  {
-    id: 4,
-    title: 'Best Sensitivity Settings for Emulator (Coming Soon)',
-    slug: 'sensitivity-guide',
-    category: 'GUIDE',
-    excerpt: 'Find the perfect sensitivity for your emulator setup. Covers mouse DPI, polling rate, in-game settings, and aim training tips.',
-    date: '2026-05-15',
-    readTime: '5 min read',
-    icon: '<img src="https://picsum.photos/seed/mouse/800/450?grayscale" alt="thumbnail">'
-  },
-  {
-    id: 99,
-    title: 'How to Disable Virtualization Based Security (VBS)',
-    slug: 'disable-vbs',
-    url: 'disable-vbs.html',
-    category: 'TUTORIAL',
-    excerpt: 'Complete guide to turning off Windows Virtualization Based Security, Core Isolation, and related optional features for maximum emulator performance.',
-    date: '2026-06-10',
-    readTime: '4 min read',
-    icon: '<img src="assets/disable_vbs.jpg" alt="thumbnail">',
-    cover_image: 'assets/disable_vbs.jpg',
-    content: `
-# Disable Virtualization Based Security (VBS)
-
-Virtualization-Based Security (VBS) and Core Isolation (Memory Integrity) can cause performance issues or conflicts with Android emulators. 
-
-Here is how to completely disable them on Windows 11.
-
-### Step 1 — Disable Core Isolation (Memory Integrity)
-The easiest way is through Windows Settings:
-1. Open the **Start menu** and search for **"Core isolation"**.
-2. Click to open the Core isolation settings page.
-3. Toggle the **Memory integrity** switch to **Off**.
-4. **Restart your computer**.
-
-### Step 2 — Disable Optional Features
-Some Windows features rely on the hypervisor and keep VBS active:
-1. Open the **Start menu** and search for **"Turn Windows features on or off"**.
-2. Open it and uncheck the following (if they are listed):
-   * **Virtual Machine Platform**
-   * **Windows Hypervisor Platform**
-   * **Microsoft Defender Application Guard**
-3. Click **OK** and restart your PC.
-
-### Step 3 — Force Disable via Script (Recommended)
-If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:
-
-1. [Download Disable Hyper-V & VBS Tool](https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file)
-2. Right-click the downloaded \`.exe\` file.
-3. Select **"Run as Administrator"**.
-4. Follow any on-screen prompts.
-5. **Restart your PC** for the final time.
-
-*(Note: Disabling virtualization features may prevent programs like VMware, Docker, or WSL2 from working).*
-    `
-  },
-  {
-    id: 5,
-    title: 'Gameloop Keymap setup full guide',
-    slug: 'gl-keymap',
-    url: 'gl-keymap.html',
-    category: 'GUIDE',
-    excerpt: 'Gameloop Keymap tutorial',
-    date: '2026-05-31',
-    readTime: '5 MIN READ',
-    youtube_url: 'https://youtu.be/dQw4w9WgXcQ',
-    cover_image: 'assets/glp_keymap.jpg',
-    icon: '<img src="assets/glp_keymap.jpg" alt="thumbnail">',
-    content: `
-# GameLoop Key Mapping Setup Guide
-
-Having issues with key mapping? Most problems happen because the selected mapping doesn't match your emulator resolution.
-
-Important
-• Match your key mapping with your Engine Resolution.
-
-• 720p → Use 720p mapping.
-
-• 1080p normal → Use 1080p normal mapping.
-
-• 1080p ipad → Use 1080p ipad mapping.
-
-• 2K iPad (1920×1440) → Use 2K iPad mapping.
-
-• 2K normal (2560×1440) → Use 2K normal mapping.
-
-• 4K normal (3840×2160) → Use 4K normal mapping.
-
-• 4K iPad (2880×2160) → Use 4K iPad mapping.
-
-Before Applying New Mapping
-Reset GameLoop key mapping.
-Reset in-game button layout to default.
-Keep button transparency above 1%.
-Close GameLoop completely.
-Kill all GameLoop processes using SnailYT.exe.
-Apply the correct mapping and launch the game.
-Customization
-✅ Safe to edit:
-
-• Reload
-
-• Crouch
-
-• Jump
-
-• Prone
-
-• Other single-action buttons
-
-❌ Do NOT modify:
-
-• Fire button
-
-• Aim button
-
-• F key
-
-• G key
-
-• CTRL key
-
-• Other protected macro keys
-
-Note
-Initial lag after entering a match is normal while shaders are being built. Once complete, gameplay and key mapping should work smoothly.
-    `
-  },
-  {
-    id: 6,
-    title: 'iPad Resolution for Emulators (Coming Soon)',
-    slug: 'ipad-resolution',
-    category: 'GUIDE',
-    excerpt: 'How to set iPad view resolution on your emulator for wider FOV and better gameplay. 4K, 2K, and 1080p options covered.',
-    date: '2026-05-05',
-    readTime: '4 min read',
-    icon: '<img src="https://picsum.photos/seed/ipad/800/450?grayscale" alt="thumbnail">'
-  },
-  {
     id: 7,
     title: 'FPS Optimization',
     slug: 'fps-optimization',
@@ -462,6 +245,223 @@ Performance-focused configurations for competitive players, streamers, and emula
 📩 **DM directly to book your slot!**
 👉 **[@ARNISLIVE](https://t.me/arnislive28)** and **[@drinkyourperiod](https://t.me/drinkyourperiod)** on Telegram
     `
+  },
+  {
+    id: 5,
+    title: 'Gameloop Keymap setup full guide',
+    slug: 'gl-keymap',
+    url: 'gl-keymap.html',
+    category: 'GUIDE',
+    excerpt: 'Gameloop Keymap tutorial',
+    date: '2026-05-31',
+    readTime: '5 MIN READ',
+    youtube_url: 'https://youtu.be/dQw4w9WgXcQ',
+    cover_image: 'assets/glp_keymap.jpg',
+    icon: '<img src="assets/glp_keymap.jpg" alt="thumbnail">',
+    content: `
+# GameLoop Key Mapping Setup Guide
+
+Having issues with key mapping? Most problems happen because the selected mapping doesn't match your emulator resolution.
+
+Important
+• Match your key mapping with your Engine Resolution.
+
+• 720p → Use 720p mapping.
+
+• 1080p normal → Use 1080p normal mapping.
+
+• 1080p ipad → Use 1080p ipad mapping.
+
+• 2K iPad (1920×1440) → Use 2K iPad mapping.
+
+• 2K normal (2560×1440) → Use 2K normal mapping.
+
+• 4K normal (3840×2160) → Use 4K normal mapping.
+
+• 4K iPad (2880×2160) → Use 4K iPad mapping.
+
+Before Applying New Mapping
+Reset GameLoop key mapping.
+Reset in-game button layout to default.
+Keep button transparency above 1%.
+Close GameLoop completely.
+Kill all GameLoop processes using SnailYT.exe.
+Apply the correct mapping and launch the game.
+Customization
+✅ Safe to edit:
+
+• Reload
+
+• Crouch
+
+• Jump
+
+• Prone
+
+• Other single-action buttons
+
+❌ Do NOT modify:
+
+• Fire button
+
+• Aim button
+
+• F key
+
+• G key
+
+• CTRL key
+
+• Other protected macro keys
+
+Note
+Initial lag after entering a match is normal while shaders are being built. Once complete, gameplay and key mapping should work smoothly.
+    `
+  },
+  {
+    id: 99,
+    title: 'How to Disable Virtualization Based Security (VBS)',
+    slug: 'disable-vbs',
+    url: 'disable-vbs.html',
+    category: 'TUTORIAL',
+    excerpt: 'Complete guide to turning off Windows Virtualization Based Security, Core Isolation, and related optional features for maximum emulator performance.',
+    date: '2026-06-10',
+    readTime: '4 min read',
+    icon: '<img src="assets/disable_vbs.jpg" alt="thumbnail">',
+    cover_image: 'assets/disable_vbs.jpg',
+    content: `
+# Disable Virtualization Based Security (VBS)
+
+Virtualization-Based Security (VBS) and Core Isolation (Memory Integrity) can cause performance issues or conflicts with Android emulators. 
+
+Here is how to completely disable them on Windows 11.
+
+### Step 1 — Disable Core Isolation (Memory Integrity)
+The easiest way is through Windows Settings:
+1. Open the **Start menu** and search for **"Core isolation"**.
+2. Click to open the Core isolation settings page.
+3. Toggle the **Memory integrity** switch to **Off**.
+4. **Restart your computer**.
+
+### Step 2 — Disable Optional Features
+Some Windows features rely on the hypervisor and keep VBS active:
+1. Open the **Start menu** and search for **"Turn Windows features on or off"**.
+2. Open it and uncheck the following (if they are listed):
+   * **Virtual Machine Platform**
+   * **Windows Hypervisor Platform**
+   * **Microsoft Defender Application Guard**
+3. Click **OK** and restart your PC.
+
+### Step 3 — Force Disable via Script (Recommended)
+If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:
+
+1. [Download Disable Hyper-V & VBS Tool](https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file)
+2. Right-click the downloaded \`.exe\` file.
+3. Select **"Run as Administrator"**.
+4. Follow any on-screen prompts.
+5. **Restart your PC** for the final time.
+
+*(Note: Disabling virtualization features may prevent programs like VMware, Docker, or WSL2 from working).*
+    `
+  },
+  {
+    id: 10,
+    title: 'Twitter (X) login for emulators',
+    slug: 'twitter-login',
+    url: 'twitter-login.html',
+    category: 'TUTORIAL',
+    excerpt: 'Having trouble signing into X inside your emulator? Follow this simple workaround and you\'ll be logged in within minutes.',
+    date: '2026-06-07',
+    readTime: '4 min read',
+    icon: '<img src="assets/twitter_login.jpg" alt="thumbnail">',
+    cover_image: 'assets/twitter_login.jpg',
+    content: `
+# Login to X (Twitter) on an Emulator
+
+Having trouble signing into X inside your emulator? Follow this simple workaround and you'll be logged in within minutes.
+
+### Step 1 — Sign in on a Normal Browser
+Open X (Twitter) on your phone or PC browser and log into your account normally.
+
+### Step 2 — Change Your Email
+Go to X Account Settings and replace your current email address with another Gmail account.
+
+### Step 3 — Sign Into Play Store
+On your emulator, log into the Google Play Store using that same Gmail account.
+
+### Step 4 — Install X (Twitter)
+#### GameLoop Users
+Install X from:
+- GameLoop App Market
+- [Or the download link provided below](https://drive.google.com/file/d/1IlGFVsNOJhkG0szp8ZWhbqtOc2FTI3vc/view?pli=1)
+
+⚠ Do NOT install X from the Play Store on GameLoop.
+
+### Step 5 — Continue with Google
+Open X and select:
+> **Continue with Google**
+
+Choose the same Gmail account used in the previous steps.
+
+### Step 6 — You're In!
+X should automatically recognize your account and sign you in successfully.
+
+Enjoy 😀
+
+---
+
+### Important Note
+This method is intended for users experiencing login issues on emulators.
+
+To avoid problems:
+- ✓ Use the same Gmail account everywhere
+- ✓ Use that Gmail in X Account Settings
+- ✓ Use that Gmail in the emulator's Play Store
+- ✓ Use "Continue with Google" during login
+
+Once everything matches, login usually works without any issues.
+    `
+  },
+  {
+    id: 2,
+    title: 'MuMu Player 12 — Complete BGMI Setup (Coming Soon)',
+    slug: 'mumu-bgmi-setup',
+    category: 'BGMI',
+    excerpt: 'How to install and configure BGMI on MuMu Player 12 with Fusion bypass. Includes 64-bit and 32-bit instructions.',
+    date: '2026-05-25',
+    readTime: '6 min read',
+    size: '1.8 GB',
+    icon: '<img src="https://picsum.photos/seed/emulator/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 3,
+    title: 'Network Bridge Error — Fix Guide (Coming Soon)',
+    slug: 'network-bridge-fix',
+    category: 'TUTORIAL',
+    excerpt: 'Step-by-step fix for the Network Bridge Failed error that occurs when starting the bypass on Gameloop or other emulators.',
+    date: '2026-05-20',
+    readTime: '3 min read',
+    icon: '<img src="https://picsum.photos/seed/network/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 4,
+    title: 'Best Sensitivity Settings for Emulator (Coming Soon)',
+    slug: 'sensitivity-guide',
+    category: 'GUIDE',
+    excerpt: 'Find the perfect sensitivity for your emulator setup. Covers mouse DPI, polling rate, in-game settings, and aim training tips.',
+    date: '2026-05-15',
+    readTime: '5 min read',
+    icon: '<img src="https://picsum.photos/seed/mouse/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 6,
+    title: 'iPad Resolution for Emulators (Coming Soon)',
+    slug: 'ipad-resolution',
+    category: 'GUIDE',
+    excerpt: 'How to set iPad view resolution on your emulator for wider FOV and better gameplay. 4K, 2K, and 1080p options covered.',
+    date: '2026-05-05',
+    readTime: '4 min read',
+    icon: '<img src="https://picsum.photos/seed/ipad/800/450?grayscale" alt="thumbnail">'
   }
 ];
 

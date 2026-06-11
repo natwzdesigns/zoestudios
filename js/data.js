@@ -372,49 +372,80 @@ Initial lag after entering a match is normal while shaders are being built. Once
 ⚙️ **PROFESSIONAL OPTIMIZATION & STREAM SETUP**
 Performance-focused configurations for competitive players, streamers, and emulator users.
 
-━━━━━━━━━━━━━━━
+<br>
+<h3 style="text-align:center; color: var(--text2);">🛠️ INDIVIDUAL SERVICES</h3>
 
-### 🛠️ INDIVIDUAL SERVICES
+<div class="pricing-grid">
+  <div class="pricing-card">
+    <div class="pricing-title">OBS STREAM SETUP</div>
+    <div class="pricing-price">₹299</div>
+    <div class="pricing-desc">"Clean and efficient stream configuration optimized for your hardware."</div>
+    <ul class="pricing-features">
+      <li>Encoder configuration</li>
+      <li>Bitrate optimization</li>
+      <li>Recording profile setup</li>
+      <li>Vertical layout setup</li>
+      <li class="time">~10 Minutes</li>
+    </ul>
+  </div>
 
-**PC OPTIMIZATION &mdash; ₹1499**
-*"Complete Windows optimization tailored specifically for your hardware."*
-* **Windows cleanup & debloating**
-* **Custom power configuration**
-* **Network & latency optimization**
-* **Registry tuning**
-* **Background process optimization**
-* ⏱️ *90–120 Minutes*
+  <div class="pricing-card">
+    <div class="pricing-title">FUSION & GAME SETUP</div>
+    <div class="pricing-price">₹599</div>
+    <div class="pricing-desc">"Competitive-ready emulator configuration with proper engine, keymapping, and performance tuning."</div>
+    <ul class="pricing-features">
+      <li>Emulator engine configuration</li>
+      <li>Gameloop keymapping fixes</li>
+      <li>Vibrancy color configuration</li>
+      <li class="time">15–20 Minutes</li>
+    </ul>
+  </div>
 
-**FUSION & GAME SETUP &mdash; ₹599**
-*"Competitive-ready emulator configuration with proper engine, keymapping, and performance tuning."*
-* **Emulator engine configuration**
-* **Gameloop keymapping fixes**
-* **Vibrancy color configuration**
-* ⏱️ *15–20 Minutes*
+  <div class="pricing-card">
+    <div class="pricing-title">PC OPTIMIZATION</div>
+    <div class="pricing-price">₹1499</div>
+    <div class="pricing-desc">"Complete Windows optimization tailored specifically for your hardware."</div>
+    <ul class="pricing-features">
+      <li>Windows cleanup & debloating</li>
+      <li>Custom power configuration</li>
+      <li>Network & latency optimization</li>
+      <li>Registry tuning</li>
+      <li>Background process optimization</li>
+      <li class="time">90–120 Minutes</li>
+    </ul>
+  </div>
+</div>
 
-**OBS STREAM SETUP &mdash; ₹299**
-*"Clean and efficient stream configuration optimized for your hardware."*
-* **Encoder configuration**
-* **Bitrate optimization**
-* **Recording profile setup**
-* **Vertical layout setup**
-* ⏱️ *~10 Minutes*
+<br><br>
+<h3 style="text-align:center; font-size: 1.8rem; margin-bottom: 2rem;">Unlock Everything. Best Value.</h3>
 
-━━━━━━━━━━━━━━━
+<div class="pricing-grid bundles" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+  <div class="pricing-card bundle">
+    <div class="pricing-badge">BEST VALUE</div>
+    <div class="pricing-title" style="color: var(--primary);">ALL-IN-ONE STREAMER BUNDLE</div>
+    <div class="pricing-price" style="font-size: 3rem;">₹1999</div>
+    <div class="pricing-desc">The ultimate setup for serious competitive players who also want to stream.</div>
+    <ul class="pricing-features">
+      <li><strong>Complete PC Optimization</strong></li>
+      <li><strong>Fusion & Game Setup</strong></li>
+      <li><strong>OBS Stream Setup</strong></li>
+      <li class="time" style="margin-top: 2rem;">115–150 Minutes</li>
+    </ul>
+  </div>
 
-### 🎁 BUNDLES
+  <div class="pricing-card">
+    <div class="pricing-title">PC + GAME BUNDLE</div>
+    <div class="pricing-price">₹1799</div>
+    <div class="pricing-desc">Perfect for those who just want maximum frames without streaming.</div>
+    <ul class="pricing-features">
+      <li>Complete PC Optimization</li>
+      <li>Fusion & Game Setup</li>
+      <li class="time">105–140 Minutes</li>
+    </ul>
+  </div>
+</div>
 
-**PC + GAME BUNDLE &mdash; ₹1799**
-* **PC Optimization**
-* **Fusion & Game Setup**
-* ⏱️ *105–140 Minutes*
-
-**ALL-IN-ONE STREAMER BUNDLE &mdash; ₹1999**
-* **PC Optimization**
-* **Fusion & Game Setup**
-* **OBS Stream Setup**
-* ⏱️ *115–150 Minutes*
-
+<br>
 ━━━━━━━━━━━━━━━
 
 ### 📌 TERMS AND CONDITIONS

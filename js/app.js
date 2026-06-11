@@ -462,7 +462,7 @@ function renderMarkdown(md) {
   h = h.split('\n').map(line => {
     line = line.trim();
     if(!line) return '';
-    if(/^<(h[23]|ul|ol|li|blockquote|pre|code)/.test(line)) return line;
+    if(/^<(h[23]|ul|ol|li|blockquote|pre|code|div|section|article|svg|button|br|hr)/.test(line) || /^<\/?div/.test(line)) return line;
     return `<p>${line}</p>`;
   }).join('');
   return h;

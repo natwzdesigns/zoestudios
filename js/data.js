@@ -373,6 +373,451 @@ Initial lag after entering a match is normal while shaders are being built. Once
 Performance-focused configurations for competitive players, streamers, and emulator users.
 
 <br>
+<div class="apple-pricing-section">
+  
+  <div class="apple-bundle-card">
+    <div class="apple-bundle-badge">Best Value</div>
+    <div class="apple-bundle-title">ALL-IN-ONE STREAMER BUNDLE</div>
+    <div class="apple-bundle-price">₹1999<span></span></div>
+    <div class="apple-bundle-desc">The ultimate setup for serious competitive players who also want to stream seamlessly without dropping frames.</div>
+    <div class="apple-bundle-features">
+      <span>Complete PC Optimization</span>
+      <span>Fusion & Game Setup</span>
+      <span>OBS Stream Setup</span>
+      <span style="color:var(--primary)">115–150 Minutes</span>
+    </div>
+  </div>
+
+  <div class="apple-bundle-secondary">
+    <div class="apple-bundle-secondary-info">
+      <div class="apple-bundle-secondary-title">PC + GAME BUNDLE</div>
+      <div class="apple-bundle-secondary-desc">Perfect for those who just want maximum frames and lowest latency without streaming. Includes Complete PC Optimization and Fusion Setup. <br><br>⏱ 105–140 Minutes</div>
+    </div>
+    <div class="apple-bundle-secondary-price">₹1799</div>
+  </div>
+
+  <div class="apple-pricing-header">
+    <h3>Individual Services</h3>
+    <p>Select specific optimizations tailored to your needs.</p>
+  </div>
+
+  <div class="apple-pricing-grid">
+    <div class="apple-card">
+      <div class="apple-card-title">OBS Stream Setup</div>
+      <div class="apple-card-price">₹299<span></span></div>
+      <div class="apple-card-desc">Clean and efficient stream configuration optimized for your hardware.</div>
+      <ul class="apple-features">
+        <li>Encoder configuration</li>
+        <li>Bitrate optimization</li>
+        <li>Recording profile setup</li>
+        <li>Vertical layout setup</li>
+        <li class="time">~10 Minutes</li>
+      </ul>
+    </div>
+
+    <div class="apple-card">
+      <div class="apple-card-title">Fusion & Game Setup</div>
+      <div class="apple-card-price">₹599<span></span></div>
+      <div class="apple-card-desc">Competitive-ready emulator configuration with proper engine, keymapping, and performance tuning.</div>
+      <ul class="apple-features">
+        <li>Emulator engine configuration</li>
+        <li>Gameloop keymapping fixes</li>
+        <li>Vibrancy color configuration</li>
+        <li class="time">15–20 Minutes</li>
+      </ul>
+    </div>
+
+    <div class="apple-card">
+      <div class="apple-card-title">PC Optimization</div>
+      <div class="apple-card-price">₹1499<span></span></div>
+      <div class="apple-card-desc">Complete Windows optimization tailored specifically for your hardware.</div>
+      <ul class="apple-features">
+        <li>Windows cleanup & debloating</li>
+        <li>Custom power configuration</li>
+        <li>Network & latency optimization</li>
+        <li>Registry tuning</li>
+        <li>Background process optimization</li>
+        <li class="time">90–120 Minutes</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+const SITE = {
+  name: 'ZOE',
+  tagline: 'Studios',
+  logo: 'assets/logo.png', // I will update logo style later
+  telegram: 'https://t.me/arnislive',
+  discord: 'https://discord.gg/rZnFf2NM6D',
+  youtube: '#'
+};
+
+const RELEASE = {
+  version: 'Fusion 1.8.4',
+  badge: 'LATEST EDITION',
+  changelog: [
+    'Add BGMI 4.4 support for all emulators. You will need 32bit bgmi for that (both vip and free). You can find xapk and installer inside tools > Installer.',
+    'Fixed Network Bridge Error Bug.',
+    'Add Turbo Graphics option for VIP. If you enable this then your keymap might not work. To fix it, go to graphics, scroll down to "UI for non standard screens" and make it 0 from 30.',
+    'To reduce graphics glitches, go to extra > check clear all & logout and in tools check balanced / smooth quality. Try playing on DirectX renderer.',
+    'You can now go to FusionTools > Installer to download xapk. No need to ask every time.',
+    'Small fixes here and there.'
+  ],
+  vip: {
+    price: '₹240/-',
+    validity: 'until v4.5 release',
+    terms: ['Non-refundable', 'Fixed Price'],
+    features: [
+      'Support: Mumu and Gameloop support 32bit only. Mumu 64bit support will come later. Other emulators support both.',
+      'All VIP features added later',
+      '240 FPS Unlocked (up to Ultra HD in-game)',
+      'Resolution Support: 480p to 4K [Except Gameloop(2k)]'
+    ],
+    contact: [
+      { name: '@infinish_10', url: 'https://t.me/infinish_10' },
+      { name: '@ssmpmaddy', url: 'https://t.me/ssmpmaddy' }
+    ],
+    activation: 'Copy key, open fusion, check vip activated (no need to enter or paste key). Use given exe with key for activation.'
+  },
+  downloadUrl: 'https://www.mediafire.com/file/shtp2fkw6zikhsd/Fusion.exe/file'
+};
+
+const POSTS = [
+  {
+    id: 10,
+    title: 'Twitter (X) login for emulators',
+    slug: 'twitter-login',
+    url: 'twitter-login.html',
+    category: 'TUTORIAL',
+    excerpt: 'Having trouble signing into X inside your emulator? Follow this simple workaround and you\'ll be logged in within minutes.',
+    date: '2026-06-07',
+    readTime: '4 min read',
+    icon: '<img src="assets/twitter_login.jpg" alt="thumbnail">',
+    cover_image: 'assets/twitter_login.jpg',
+    content: `
+# Login to X (Twitter) on an Emulator
+
+Having trouble signing into X inside your emulator? Follow this simple workaround and you'll be logged in within minutes.
+
+### Step 1 — Sign in on a Normal Browser
+Open X (Twitter) on your phone or PC browser and log into your account normally.
+
+### Step 2 — Change Your Email
+Go to X Account Settings and replace your current email address with another Gmail account.
+
+### Step 3 — Sign Into Play Store
+On your emulator, log into the Google Play Store using that same Gmail account.
+
+### Step 4 — Install X (Twitter)
+#### GameLoop Users
+Install X from:
+- GameLoop App Market
+- [Or the download link provided below](https://drive.google.com/file/d/1IlGFVsNOJhkG0szp8ZWhbqtOc2FTI3vc/view?pli=1)
+
+⚠ Do NOT install X from the Play Store on GameLoop.
+
+### Step 5 — Continue with Google
+Open X and select:
+> **Continue with Google**
+
+Choose the same Gmail account used in the previous steps.
+
+### Step 6 — You're In!
+X should automatically recognize your account and sign you in successfully.
+
+Enjoy 😀
+
+---
+
+### Important Note
+This method is intended for users experiencing login issues on emulators.
+
+To avoid problems:
+- ✓ Use the same Gmail account everywhere
+- ✓ Use that Gmail in X Account Settings
+- ✓ Use that Gmail in the emulator's Play Store
+- ✓ Use "Continue with Google" during login
+
+Once everything matches, login usually works without any issues.
+    `
+  },
+  {
+    id: 1,
+    title: 'BGMI 4.4 Gameloop Setup Guide',
+    slug: 'bgmi-setup',
+    url: 'bgmi-setup.html',
+    category: 'BGMI',
+    excerpt: 'Complete step-by-step guide to set up BGMI 4.4 on Gameloop emulator with bypass. Covers installation, configuration, and troubleshooting.',
+    date: '2026-05-28',
+    readTime: '8 min read',
+    size: '2.3 GB',
+    icon: '<img src="assets/glp_setup.jpg" alt="thumbnail">',
+    cover_image: 'assets/glp_setup.jpg',
+    youtube_url: 'https://youtu.be/dQw4w9WgXcQ',
+    content: `
+# GameLoop & BGMI Setup Guide
+
+Comprehensive installation, configuration, and launch protocol via Fusion.
+
+## Phase 1: GameLoop & Engine Initialization
+
+### 1️⃣ Download & Install GameLoop
+• Download and install Gameloop.
+• For VIP’s use [Gameloop 32 bit](https://t.me/arnislivechats/2078)
+• For free users use [Gameloop 64 bit](https://t.me/arnislivechats/2079)
+
+> **Note:** While 32-bit, 64-bit, or Chinese versions generally work, downloading the 64-bit version is recommended if you are using Free Fusion.
+
+### 2️⃣ Install the Required Engine via X
+• Open GameLoop and navigate to the App Market.
+• Search for and download X (formerly Twitter).
+
+> **⚠️ Mandatory Step:** This is not optional. Installing X forces GameLoop to download and install the underlying engine required to run BGMI.
+
+### 3️⃣ Close GameLoop Completely
+• Once X is fully installed and opens on your screen, close X and exit GameLoop entirely.
+• Make sure it is not minimized in your system tray.
+
+## Phase 2: Fusion Launch & BGMI Installation
+
+### 4️⃣ Launch GameLoop via Fusion
+• Open the Fusion application.
+• Click "Launch" to start GameLoop from within Fusion.
+
+> **Note:** Do not worry about BGMI not being installed yet. This is normal at this stage.
+
+### 5️⃣ Run the BGMI Installer
+• Ensure GameLoop is running via Fusion.
+• Locate the BGMI v4.4 Installer (available from Tools → Installations inside Fusion).
+• Extract the installer files to a known location.
+• Run the \`install.bat\` file.
+
+> **⚠️ Crucial:** Do NOT close GameLoop while the .bat file is running.
+
+## Phase 3: Resource Download & Final Launch
+
+### 6️⃣ Download In-Game Resources
+• Open BGMI normally within GameLoop.
+• Download all required in-game resources.
+
+### 7️⃣ Restart Sequence
+Once the download completes, BGMI will display:
+"The update has been finished, please restart the game."
+• Click OK.
+• If BGMI attempts to start automatically again, exit the game.
+• Close GameLoop completely.
+
+### 8️⃣ Final Launch
+• Open Fusion one last time.
+• Click "Launch".
+• Allow Fusion to start BGMI by itself.
+
+**✅ Setup Complete!**
+
+---
+
+## Additional Configurations
+
+### 🎮 Keymapping Setup
+Keymapping Video Guide: [CLICK HERE](https://t.me/arnislive07/40)
+• Ensure GameLoop is already fully installed.
+• Open Fusion and navigate to Tools.
+• Go to the GameLoop section.
+• Download snailyt.exe.
+• Open the executable.
+• Go to Toolbox Section, and kill all Gameloop Processes.
+• Set your keymap according to your display resolution.
+
+### 🛒 Play Store Access & Troubleshooting
+To manually access the Google Play Store:
+• On the GameLoop home screen, press F9 (or Fn + F9 on some keyboards) to reveal hidden system apps.
+• Open the Browser.
+• Search for "Playstore".
+• Click the official Play Store link.
+• Choose to open it with the Play Store app.
+• Sign in with your Google account.
+
+### 🌐 Network Issues?
+> If you experience connection drops or network errors while doing this, try resetting your Windows Firewall.
+    `
+  },
+  {
+    id: 2,
+    title: 'MuMu Player 12 — Complete BGMI Setup (Coming Soon)',
+    slug: 'mumu-bgmi-setup',
+    category: 'BGMI',
+    excerpt: 'How to install and configure BGMI on MuMu Player 12 with Fusion bypass. Includes 64-bit and 32-bit instructions.',
+    date: '2026-05-25',
+    readTime: '6 min read',
+    size: '1.8 GB',
+    icon: '<img src="https://picsum.photos/seed/emulator/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 3,
+    title: 'Network Bridge Error — Fix Guide (Coming Soon)',
+    slug: 'network-bridge-fix',
+    category: 'TUTORIAL',
+    excerpt: 'Step-by-step fix for the Network Bridge Failed error that occurs when starting the bypass on Gameloop or other emulators.',
+    date: '2026-05-20',
+    readTime: '3 min read',
+    icon: '<img src="https://picsum.photos/seed/network/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 4,
+    title: 'Best Sensitivity Settings for Emulator (Coming Soon)',
+    slug: 'sensitivity-guide',
+    category: 'GUIDE',
+    excerpt: 'Find the perfect sensitivity for your emulator setup. Covers mouse DPI, polling rate, in-game settings, and aim training tips.',
+    date: '2026-05-15',
+    readTime: '5 min read',
+    icon: '<img src="https://picsum.photos/seed/mouse/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 99,
+    title: 'How to Disable Virtualization Based Security (VBS)',
+    slug: 'disable-vbs',
+    url: 'disable-vbs.html',
+    category: 'TUTORIAL',
+    excerpt: 'Complete guide to turning off Windows Virtualization Based Security, Core Isolation, and related optional features for maximum emulator performance.',
+    date: '2026-06-10',
+    readTime: '4 min read',
+    icon: '<img src="assets/disable_vbs.jpg" alt="thumbnail">',
+    cover_image: 'assets/disable_vbs.jpg',
+    content: `
+# Disable Virtualization Based Security (VBS)
+
+Virtualization-Based Security (VBS) and Core Isolation (Memory Integrity) can cause performance issues or conflicts with Android emulators. 
+
+Here is how to completely disable them on Windows 11.
+
+### Step 1 — Disable Core Isolation (Memory Integrity)
+The easiest way is through Windows Settings:
+1. Open the **Start menu** and search for **"Core isolation"**.
+2. Click to open the Core isolation settings page.
+3. Toggle the **Memory integrity** switch to **Off**.
+4. **Restart your computer**.
+
+### Step 2 — Disable Optional Features
+Some Windows features rely on the hypervisor and keep VBS active:
+1. Open the **Start menu** and search for **"Turn Windows features on or off"**.
+2. Open it and uncheck the following (if they are listed):
+   * **Virtual Machine Platform**
+   * **Windows Hypervisor Platform**
+   * **Microsoft Defender Application Guard**
+3. Click **OK** and restart your PC.
+
+### Step 3 — Force Disable via Script (Recommended)
+If VBS is still running, you can use our automated script to edit the Registry and disable hypervisor launch:
+
+1. [Download Disable Hyper-V & VBS Tool](https://www.mediafire.com/file/m78tr8e11rf99vv/HD-DisableHyperV_native_v2.exe/file)
+2. Right-click the downloaded \`.exe\` file.
+3. Select **"Run as Administrator"**.
+4. Follow any on-screen prompts.
+5. **Restart your PC** for the final time.
+
+*(Note: Disabling virtualization features may prevent programs like VMware, Docker, or WSL2 from working).*
+    `
+  },
+  {
+    id: 5,
+    title: 'Gameloop Keymap setup full guide',
+    slug: 'gl-keymap',
+    url: 'gl-keymap.html',
+    category: 'GUIDE',
+    excerpt: 'Gameloop Keymap tutorial',
+    date: '2026-05-31',
+    readTime: '5 MIN READ',
+    youtube_url: 'https://youtu.be/dQw4w9WgXcQ',
+    cover_image: 'assets/glp_keymap.jpg',
+    icon: '<img src="assets/glp_keymap.jpg" alt="thumbnail">',
+    content: `
+# GameLoop Key Mapping Setup Guide
+
+Having issues with key mapping? Most problems happen because the selected mapping doesn't match your emulator resolution.
+
+Important
+• Match your key mapping with your Engine Resolution.
+
+• 720p → Use 720p mapping.
+
+• 1080p normal → Use 1080p normal mapping.
+
+• 1080p ipad → Use 1080p ipad mapping.
+
+• 2K iPad (1920×1440) → Use 2K iPad mapping.
+
+• 2K normal (2560×1440) → Use 2K normal mapping.
+
+• 4K normal (3840×2160) → Use 4K normal mapping.
+
+• 4K iPad (2880×2160) → Use 4K iPad mapping.
+
+Before Applying New Mapping
+Reset GameLoop key mapping.
+Reset in-game button layout to default.
+Keep button transparency above 1%.
+Close GameLoop completely.
+Kill all GameLoop processes using SnailYT.exe.
+Apply the correct mapping and launch the game.
+Customization
+✅ Safe to edit:
+
+• Reload
+
+• Crouch
+
+• Jump
+
+• Prone
+
+• Other single-action buttons
+
+❌ Do NOT modify:
+
+• Fire button
+
+• Aim button
+
+• F key
+
+• G key
+
+• CTRL key
+
+• Other protected macro keys
+
+Note
+Initial lag after entering a match is normal while shaders are being built. Once complete, gameplay and key mapping should work smoothly.
+    `
+  },
+  {
+    id: 6,
+    title: 'iPad Resolution for Emulators (Coming Soon)',
+    slug: 'ipad-resolution',
+    category: 'GUIDE',
+    excerpt: 'How to set iPad view resolution on your emulator for wider FOV and better gameplay. 4K, 2K, and 1080p options covered.',
+    date: '2026-05-05',
+    readTime: '4 min read',
+    icon: '<img src="https://picsum.photos/seed/ipad/800/450?grayscale" alt="thumbnail">'
+  },
+  {
+    id: 7,
+    title: 'FPS Optimization',
+    slug: 'fps-optimization',
+    category: 'GUIDE',
+    excerpt: 'PROFESSIONAL PC OPTIMIZATION & STREAM SETUP. Maximize your FPS, eliminate input lag, and stream smoothly.',
+    date: '2026-06-08',
+    readTime: '3 min read',
+    icon: '<img src="assets/fps_optimise.jpg" alt="thumbnail">',
+    cover_image: 'assets/fps_optimise.jpg',
+    content: `
+# FPS Optimization
+**Get Stable up to 240 FPS**
+
+⚙️ **PROFESSIONAL OPTIMIZATION & STREAM SETUP**
+Performance-focused configurations for competitive players, streamers, and emulator users.
+
+<br>
 <h3 style="text-align:center; color: var(--text2);">🛠️ INDIVIDUAL SERVICES</h3>
 
 <div class="pricing-grid">

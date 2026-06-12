@@ -158,7 +158,7 @@ Performance-focused configurations for competitive players, streamers, and emula
 <div class="apple-pricing-section">
   
   <div class="apple-bundle-card">
-    <div class="apple-bundle-badge">Best Value</div>
+    <div class="apple-bundle-badge">🔥 HOT</div>
     <div class="apple-bundle-title">ALL-IN-ONE STREAMER BUNDLE</div>
     <div class="apple-bundle-price">₹1999<span></span></div>
     <div class="apple-bundle-desc">The ultimate setup for serious competitive players who also want to stream seamlessly without dropping frames.</div>

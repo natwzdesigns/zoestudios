@@ -224,26 +224,50 @@ Performance-focused configurations for competitive players, streamers, and emula
     </div>
   </div>
 
+</div> <!-- End apple-pricing-grid -->
+
+<div class="apple-terms-container">
+  <div class="apple-terms-header">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--gold); margin-right: 12px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+    Terms and Conditions
+  </div>
+  <ul class="apple-terms-list">
+    <li>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span><strong>Advance payment required.</strong></span>
+    </li>
+    <li>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span><strong>Non-refundable</strong> once work begins.</span>
+    </li>
+    <li>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span><strong>No generic scripts</strong> or one-click optimizers.</span>
+    </li>
+    <li>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span><strong>Every setup is performed manually.</strong></span>
+    </li>
+    <li>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span><strong>Final FPS, latency and performance</strong> depend on your hardware specifications.</span>
+    </li>
+  </ul>
+  <div class="apple-terms-note">
+    <strong>Note:</strong> Every optimization plan (except stand-alone OBS setup) includes <strong>FREE</strong> access to a Fusion VIP Season Key at no additional cost.
+  </div>
 </div>
 
-<br>
-<br>
-━━━━━━━━━━━━━━━
-
-### 📌 TERMS AND CONDITIONS
-
-* **Advance payment required.**
-* **Non-refundable** once work begins.
-* **No generic scripts** or one-click optimizers.
-* **Every setup is performed manually.**
-* **Final FPS, latency and performance** depend on your hardware specifications.
-
-> **Note:** Every optimization plan (except stand-alone Fusion and OBS setup) includes **FREE** access to a Fusion VIP Season Key at no additional cost.
-
-━━━━━━━━━━━━━━━
-
-📩 **DM directly to book your slot!**
-👉 **[@ARNISLIVE](https://t.me/arnislive28)** and **[@drinkyourperiod](https://t.me/drinkyourperiod)** on Telegram
+<div class="apple-contact-banner">
+  <div class="apple-contact-text">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+    <span>DM directly to book your slot!</span>
+  </div>
+  <div class="apple-contact-links">
+    <a href="https://t.me/arnislive28" target="_blank" class="apple-contact-btn">@ARNISLIVE</a>
+    <a href="https://t.me/drinkyourperiod" target="_blank" class="apple-contact-btn">@drinkyourperiod</a>
+  </div>
+</div>
     `
   },
   {

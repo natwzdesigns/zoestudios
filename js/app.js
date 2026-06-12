@@ -217,9 +217,9 @@ function renderBentoGrid(posts) {
           ${p.icon && p.icon.includes('<img') ? p.icon : `<span>${p.icon || p.category.charAt(0)}</span>`}
         </div>
         <div class="b-body">
-          <span class="b-badge badge-${catClass}">${esc(p.category)}</span>
-          <h3 class="b-title">${esc(p.title)}</h3>
-          <p class="b-excerpt">${esc(p.excerpt)}</p>
+          <span class="apple-eyebrow color-${catClass}">${esc(p.category)}</span>
+          <h3 class="apple-card-title b-title">${esc(p.title)}</h3>
+          <p class="apple-card-excerpt b-excerpt">${esc(p.excerpt)}</p>
         </div>
         <div class="b-foot">
           <span>${esc(p.date)}</span>

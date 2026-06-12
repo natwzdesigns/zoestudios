@@ -541,12 +541,12 @@ nav a.active { color: var(--gold); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.6rem;
-  border-top: 1px solid var(--border);
-  font-family: 'Courier Prime', monospace;
-  font-size: .7rem;
-  letter-spacing: 1px;
-  color: var(--text2);
+  padding: 0 1.6rem 1.6rem 1.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.4);
+  border-top: none;
 }
 .b-arrow {
   color: var(--gold);
@@ -2097,4 +2097,39 @@ code {
   .apple-contact-btn {
     flex: 1;
   }
+}
+
+
+/* --- APPLE ARCHIVE CARDS --- */
+.apple-eyebrow {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: -0.2rem;
+}
+.color-bgmi { color: #f43f5e; }
+.color-tutorial { color: var(--gold); }
+.color-guide { color: #10b981; }
+.color-tools { color: #f59e0b; }
+.apple-eyebrow:not(.color-bgmi):not(.color-tutorial):not(.color-guide):not(.color-tools) { color: var(--text2); }
+
+.apple-card-title.b-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-top: 0.2rem;
+}
+
+.apple-card-excerpt.b-excerpt {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5;
+  margin-top: 0.2rem;
 }

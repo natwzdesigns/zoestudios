@@ -227,34 +227,16 @@ Performance-focused configurations for competitive players, streamers, and emula
 </div> <!-- End apple-pricing-grid -->
 
 <div class="apple-terms-container">
-  <div class="apple-terms-header">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--gold); margin-right: 12px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-    Terms and Conditions
-  </div>
+  <div class="apple-terms-header">Terms and Conditions</div>
   <ul class="apple-terms-list">
-    <li>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      <span><strong>Advance payment required.</strong></span>
-    </li>
-    <li>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      <span><strong>Non-refundable</strong> once work begins.</span>
-    </li>
-    <li>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      <span><strong>No generic scripts</strong> or one-click optimizers.</span>
-    </li>
-    <li>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      <span><strong>Every setup is performed manually.</strong></span>
-    </li>
-    <li>
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      <span><strong>Final FPS, latency and performance</strong> depend on your hardware specifications.</span>
-    </li>
+    <li><span><strong>Advance payment required.</strong></span></li>
+    <li><span><strong>Non-refundable</strong> once work begins.</span></li>
+    <li><span><strong>No generic scripts</strong> or one-click optimizers.</span></li>
+    <li><span><strong>Every setup is performed manually.</strong></span></li>
+    <li><span><strong>Final FPS, latency and performance</strong> depend on your hardware specifications.</span></li>
   </ul>
   <div class="apple-terms-note">
-    <strong>Note:</strong> Every optimization plan (except stand-alone OBS setup) includes <strong>FREE</strong> access to a Fusion VIP Season Key at no additional cost.
+    <strong>Note:</strong> Every optimization plan (except stand-alone OBS setup) includes FREE access to a Fusion VIP Season Key at no additional cost.
   </div>
 </div>
 
